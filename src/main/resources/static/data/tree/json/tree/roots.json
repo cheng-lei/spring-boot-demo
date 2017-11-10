@@ -1,0 +1,5 @@
+[
+    {"id": "domestic", "text": "国内", "children": true, "type": "folder"},
+    {"id": "hkmacautaiwan", "text": "港澳台", "children": true, "type": "folder"},
+    {"id": "overseas", "text": "海外", "children": true, "type": "folder"}
+]

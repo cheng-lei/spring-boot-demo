@@ -1,0 +1,13 @@
+@charset 'utf-8';
+
+/*
+ * Copyright 2014 Qiyi.com All rights reserved.
+ * 
+ * file: simple.css
+ * path: css-src/
+ * description: css of simple module
+ * author: Smyle
+ * date: 2014-3-26
+ */
+
+@import url("simple/simple.css");

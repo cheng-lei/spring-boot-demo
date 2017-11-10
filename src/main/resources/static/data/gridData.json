@@ -1,0 +1,39 @@
+{"data":{
+    "page": 1,
+    "pageSize": 5,
+    "totalpage": 10,
+    "totalCount": 200,
+    "result":[{
+        "id" : 9000,
+        "name" : "李先生",
+        "sex" :"男",
+        "skill" : "Java,JavaScript"
+    }, {
+        "id": 9001,
+        "name": "杨先生",
+        "sex" :"男",
+        "skill" : "Java"
+    }, {
+        "id" : 9002,
+        "name" : "王先生",
+        "sex" :"男",
+        "skill" : "C#,C++"
+    }, {
+        "id" : 9003,
+        "name" : "胡先生",
+        "sex" :"男",
+        "skill" : "JQuery"
+    }, {
+        "id" : 9005,
+        "name" : "马女士",
+        "sex" :"女",
+        "skill" : "Node.JS, C#"
+    }, {
+        "id": 9093,
+        "name": "蔡小姐",
+        "sex" :"女",
+        "skill" : "CSS, HTML"
+    }]},
+    "code":"A00000",
+    "msg":"load data success."
+}

@@ -1,0 +1,22 @@
+{
+    "code": "A00000",
+    "msg": "获取信息成功",
+    "data": [{
+                    "value": "科比",
+                    "id": "12",
+                    "checked": false
+                },{
+                    "value": "NBA",
+                    "id": "13",
+                    "checked": false
+                },{
+                    "value": "欧冠",
+                    "id": "14",
+                    "checked": false
+                },{
+                    "value": "网球",
+                    "id": "15",
+                    "checked": false
+                }
+            ]
+}

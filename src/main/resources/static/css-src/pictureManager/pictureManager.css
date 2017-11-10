@@ -1,0 +1,190 @@
+@charset 'utf-8';
+
+/*
+ * Copyright 2015 Qiyi.com All rights reserved.
+ * 
+ * file: pictureManager.css
+ * path: css-src/
+ * description: css of pictureManager module
+ * author: wuleii@qiyi.com
+ * date: 2016-09-16
+ */
+
+/*页面通用样式*/
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+ul li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.left {
+	float: left;
+}
+
+.mr10 {
+	margin-right: 10px;
+}
+
+.ml10 {
+	margin-left: 10px;
+}
+
+.mb10 {
+	margin-bottom: 10px;
+}
+
+.hide {
+	display: none;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/*相册样式*/
+
+.panel-body{background: #eee;}
+
+.elem-list li {
+	cursor: pointer;
+}
+
+.album-list{
+	position: relative;
+	float:left;
+	width: 170px;
+	height: 210px;
+	margin-right: 10px;
+	padding: 10px;
+	text-align: center;
+	background: #fff;
+}
+
+li.style-placeholder{
+	background: #cccccc;
+}
+
+.album-list .style-edit {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width:100%;
+	height: 100%;
+	z-index: 9999;
+}
+
+.album-list .btn-remove {
+	position: absolute;
+	top: -14px;
+	right: -14px;
+	width: 28px;
+	height: 28px;
+	background: url('images/close.png') no-repeat right top;
+	background-size: 28px 28px;
+}
+
+.elem-list .album-desc{
+	height: 90px;
+	line-height: 30px;
+	font-size: 10px;
+	overflow: hidden;
+}
+
+.elem-list .album-tip{
+	background: #aacc99;
+}
+
+/*固定相册中图片的大小*/
+.elem-list li.photo img{
+	width: 150px;
+	height: 100px;
+}
+
+.elem-list li.highlight{
+	opacity: 0.8;
+}
+
+/*画廊样式--start*/
+.gallery-container {
+	display: none;
+}
+
+.img-container {
+	position:fixed;
+	top:50%;
+	left:50%;
+	z-index: 9999;
+	width:500px;
+	height:400px;
+	margin-left:-250px;
+	margin-top:-200px;
+	text-align:center;
+}
+
+.img-size {
+	max-width:100%;
+	max-height:100%;
+}
+
+.btn-close {
+	position: absolute;
+	top: -50px;
+	right: -100px;
+	z-index: 9999;
+	width: 64px;
+	height: 64px;
+	opacity: 0.5;
+	background: url('images/close.png');
+	background-size: 64px 64px;
+}
+
+.btn-left,
+.btn-right {
+	position:absolute;
+	top:50%;
+	width:50px;
+	height:50px;
+	line-height: 50px;
+	margin-top:-45px;
+	font-size:30px;
+	color: #fff;
+	opacity:0.5;
+	border:0;
+	border-radius:100%;
+	background:#000;
+	cursor: pointer;
+}
+
+.btn-left:hover,
+.btn-right:hover,
+.btn-close:hover {
+	opacity: 0.9;
+}
+
+
+.btn-left {
+	left:5px;
+}
+
+.btn-right {
+	right:5px;
+}
+
+.overlay {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:9998;
+	width:100%;
+	height:100%;
+	background:#000;
+	opacity:0.6;
+}
+/*画廊样式--end*/

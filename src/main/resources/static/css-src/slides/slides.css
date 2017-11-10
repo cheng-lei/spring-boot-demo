@@ -1,0 +1,114 @@
+@charset 'utf-8';
+
+/**
+ * Copyright 2016 Qiyi.com All rights reserved.
+ *
+ * file: lego
+ * path: css-src/
+ * description: slides
+ * author: jingtang@qiyi.com
+ * date: 2016-7-13
+ */
+
+.clear {
+    overflow: hidden;
+    clear: both;
+    width: 0px;
+    height: 0px;
+}
+
+.imgbox {
+    position: fixed;
+    top: 25%;
+    left: 30%;
+    width: 640px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul li {
+    float: left;
+    list-style: none;
+}
+
+ul li.select {
+    display: block;
+}
+
+.imgnum span {
+    border-radius: 10px;
+    font: normal normal bold 12px/15px 微软雅黑;
+    color: #FFFFFF;
+    margin-left: 5px;
+    padding: 3px 6px 3px 6px;
+    background-color: #D8D8D8;
+    cursor: pointer;
+}
+
+.imgnum span.onselect {
+    background-color: #848484;
+}
+
+.imgnum {
+    text-align: center;
+    float: right;
+    margin: -30px 50px;
+    position: relative;
+}
+
+#portfolio {
+    border: solid 1px silver;
+    width: 720px;
+    height: 550px;
+    position: fixed;
+    top: 17%;
+    left: 27%;
+    margin: 0px auto;
+}
+
+.imgnext {
+    text-align: center;
+    float: right;
+    margin: -210px 50px;
+    position: relative;
+}
+
+.imgnext span {
+    border-radius: 10px;
+    font: normal normal bold 12px/15px 微软雅黑;
+    color: #FFFFFF;
+    margin-left: 5px;
+    padding: 3px 6px 3px 6px;
+    background-color: #D8D8D8;
+    cursor: pointer;
+}
+
+.imglast {
+    text-align: center;
+    float: right;
+    margin: -210px 610px;
+    position: relative;
+}
+
+.imglast span {
+    border-radius: 10px;
+    font: normal normal bold 12px/15px 微软雅黑;
+    color: #FFFFFF;
+    margin-left: 5px;
+    padding: 3px 6px 3px 6px;
+    background-color: #D8D8D8;
+    cursor: pointer;
+}
+
+.imgnext span:hover {
+    background-color: #848484;
+}
+
+.imglast span:hover {
+    background-color: #848484;
+}

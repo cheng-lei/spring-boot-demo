@@ -1,0 +1,67 @@
+
+.qui-magnifier-magnifier{
+    display:none;cursor:move;background:blue;position:absolute;opacity:0.2;
+}
+
+.qui-magnifier-magnified-area{
+    display:none;position:absolute;z-index:10000;box-sizing:content-box;border:1px solid #000;padding:0;border-radius:3px;position:absolute;overflow:hidden;
+}
+.qui-magnifier-magnified-img{
+    position:absolute;
+}
+.qui-magnifier-coord{
+    min-width:80px;height:20px;position:absolute;bottom:5px;right:5px;
+    background:rgba(255,255,255,0.5);
+    border-radius:8px;
+    color:red;font-size:12px;text-align:center;line-height:18px;    
+}
+.qui-magnifier-menu{
+    display:none;position:absolute;z-index: 10000;
+    list-style: none;padding: 0;margin: 0;
+    width: 130px;height: 65px;background-color: #fff;    
+}
+.qui-magnifier-menu li{
+    width: 130px;height: 34px;
+    font-size:18px;text-align:center;line-height:38px;
+}
+.qui-magnifier-menu li:first-child{
+    border-bottom: 1px solid silver;
+}
+/* 原轮播图样式
+#viwepagerContainer{
+    box-sizing: content-box;
+    border:1px solid silver;width: 600px;height:400px;
+    position:relative;
+}
+ul{
+    list-style: none;padding: 0;margin: 0;
+}
+ul.imgBox{           
+    background-color: #fff;width: 600px;height:400px;
+}
+ul.imgBox li{
+    display: none;width: 600px;height:400px;
+    text-align: center;
+}
+ul.imgBox li img{
+    max-width: 600px;height: 400px;
+    cursor: pointer;vertical-align: middle;
+}
+ul.imgNavBox{
+    position: absolute;bottom: -40px;left: 210px;    
+    height: 30px;
+    background-color: transparent;
+}
+ul.imgNavBox li{
+    display: inline-block;
+    width: 20px;height: 20px;margin: 0 3px;
+    border: 1px solid gray;border-radius: 10px;
+    background: gray;opacity: 0.6; 
+    cursor: pointer;
+    color: #fff;text-align: center;line-height: 18px;
+}
+ul.imgNavBox li.activeItem{
+    background: #fff;opacity: 0.8; 
+    color: #000; font-weight: bold;
+}
+*/

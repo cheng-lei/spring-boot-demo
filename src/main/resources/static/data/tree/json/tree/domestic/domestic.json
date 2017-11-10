@@ -1,0 +1,4 @@
+[
+    {"id": "cctv", "text": "央视", "children": true, "type": "folder"},
+    {"id": "tv", "text": "卫视", "children": true, "type": "folder"}
+]

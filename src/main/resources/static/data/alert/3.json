@@ -1,0 +1,22 @@
+{
+    "code": "A00000",
+    "msg": "获取信息成功",
+    "data": [{
+                    "value": "真人秀",
+                    "id": "32",
+                    "checked": false
+                },{
+                    "value": "歌舞",
+                    "id": "33",
+                    "checked": false
+                },{
+                    "value": "竞技",
+                    "id": "34",
+                    "checked": false
+                },{
+                    "value": "相亲",
+                    "id": "35",
+                    "checked": false
+                }
+            ]
+}

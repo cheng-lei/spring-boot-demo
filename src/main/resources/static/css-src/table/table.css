@@ -1,0 +1,40 @@
+@charset 'utf-8';
+
+/*
+ * Copyright 2015 Qiyi.com All rights reserved.
+ *
+ * file: table.css
+ * path: css-src/
+ * description: css of table module
+ * author: zhangxinxiu@qiyi.com
+ * date: 2015-1-9
+ */
+
+/* 每个css都需要一个命名空间，即模块名 */
+.wrapper-table {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.wrapper-table .table, .wrapper-table th{
+    text-align: center;
+}
+/*
+.wrapper-table .table thead tr {
+    background-color: rgb(213, 213, 213);
+}
+.wrapper-table .table tbody tr:nth-child(even) {
+    background-color: rgb(235, 235, 205);
+}
+.wrapper-table .table tbody tr:hover {
+    background-color: rgb(213, 213, 255);
+}
+    */
+
+.wrapper-table .alarm {
+    color: #d14
+}
+.qui-suggest {
+    width: 30%;
+    display: inline-block;
+}

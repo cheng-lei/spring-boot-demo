@@ -1,0 +1,89 @@
+/*使用bootstrap carousel插件的自定义样式*/
+#carousel-example-generic{
+  width: 800px;height:400px;padding: 0 100px;margin: 0 auto;
+}
+#carousel-example-generic .carousel-inner{
+    width: 600px;height: 400px;    
+}
+#carousel-example-generic .item{
+  width: 600px;height:400px;
+}
+#carousel-example-generic img{
+  max-width: 600px;height: 400px;margin: 0 auto;
+}
+ol.carousel-indicators{
+    bottom: -40px;width: 10%;margin-left: -5%; 
+}
+ol.carousel-indicators li{
+    border: 1px solid orange;
+}
+ol.carousel-indicators li.active{
+    background-color: orange;
+}
+ 
+.magnifier-btn{
+    position:absolute;
+    font-size:12px;color:blue;background:none;
+    outline:none;border:1px solid silver;border-radius:8px;
+}
+.magnifier-disable-btn{
+    color:blue;top: 410px; left: 130px;
+}
+.magnifier-magnifier-btn{
+    color:green;top: 410px; left: 600px;
+}
+
+/*轮播图中引入的放大镜插件的使用介绍*/
+.magnifier-introduction{
+    margin-top: 40px;
+}
+.magnifier-introduction xmp{
+    display: block;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;padding: 9.5px;border-radius: 4px;
+}
+.magnifier-options{
+    margin-top: 16px;
+}
+
+
+
+/*
+ 原轮播图样式
+#viwepagerContainer{
+    box-sizing: content-box;
+    border:1px solid silver;width: 600px;height:400px;
+    position:relative;
+}
+ul{
+    list-style: none;padding: 0;margin: 0;
+}
+ul.imgBox{           
+    background-color: #fff;width: 600px;height:400px;
+}
+ul.imgBox li{
+    display: none;width: 600px;height:400px;
+    text-align: center;
+}
+ul.imgBox li img{
+    max-width: 600px;height: 400px;
+    cursor: pointer;vertical-align: middle;
+}
+ul.imgNavBox{
+    position: absolute;bottom: -40px;left: 210px;    
+    height: 30px;
+    background-color: transparent;
+}
+ul.imgNavBox li{
+    display: inline-block;
+    width: 20px;height: 20px;margin: 0 3px;
+    border: 1px solid gray;border-radius: 10px;
+    background: gray;opacity: 0.6; 
+    cursor: pointer;
+    color: #fff;text-align: center;line-height: 18px;
+}
+ul.imgNavBox li.activeItem{
+    background: #fff;opacity: 0.8; 
+    color: #000; font-weight: bold;
+}
+*/

@@ -1,0 +1,21 @@
+qui(
+    "imageSlider",
+    [
+        'base/Base',
+        'base/Base.Config',
+        'base/Base.Util',
+        'base/Base.Action',
+        'base/Base.Class',
+        'base/Base.View',
+        'base/Base.Dao',
+        'imageSlider/ImageSlider',
+        'imageSlider/ImageSlider.Action',
+        'imageSlider/ImageSlider.Class',
+        'imageSlider/ImageSlider.Config',
+        'imageSlider/ImageSlider.Dao',
+        'imageSlider/ImageSlider.Util',
+        'imageSlider/ImageSlider.View'
+    ],function(){
+        console.log("qui load done:","imageSlider");
+    }
+);

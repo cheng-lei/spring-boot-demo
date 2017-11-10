@@ -1,0 +1,3 @@
+[{"uuid" : 10001, "label" : "beijing", "desc" : "首都"},
+{"uuid" : 10002,  "label" : "shanghai", "desc" : "东方明珠"},
+{"uuid" : 10003,  "label" : "shenzhen", "desc" : "经济特区"}]

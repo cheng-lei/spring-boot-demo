@@ -1,0 +1,37 @@
+@charset 'utf-8';
+
+/*
+ * Copyright 2014 Qiyi.com All rights reserved.
+ * 
+ * file: collector.css
+ * path: css-src/
+ * description: css of collector module
+ * author: zhangyao@qiyi.com
+ * date: 2015-1-26
+ */
+
+/* 每个css都需要一个命名空间，即模块名 */
+body {
+    font-family: '微软雅黑'
+}
+
+.form-actions {
+    width:200px;
+    margin: auto;
+}
+
+.form-actions .btn{
+    text-align: center;
+    margin-bottom: 20px;
+    width: 80px;
+    padding: 5px;
+}
+
+.warpper-collector .userinfo-block .add {
+    color: auto;
+}
+.warpper-collector .userinfo-block .del {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}

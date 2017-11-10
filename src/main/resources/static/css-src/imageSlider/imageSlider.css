@@ -1,0 +1,75 @@
+.form-group:first-child{
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+}
+.sliderBox{
+    border-top:1px solid #DDDDDD;
+    margin: 0 auto;
+    border-radius: 3px;
+    position: relative;
+    min-width: 200px;
+    min-height:80px;
+}
+.rangeSlider{
+    /*width:280px;*/
+    height:10px;
+    background-color: #DDDDDD;
+    border-radius: 3px;
+    position: absolute;
+    top:99px;
+    /*left:80px;*/
+}
+.ableBtn{
+    margin: 0;
+    width:20px;
+    height: 20px;
+    position: absolute;
+    top:90px;
+    /*left:30px*/;
+}
+.slider{
+    display: block;
+    width:20px;
+    height:20px;
+    border:1px solid #B1B1B1;
+    border-radius: 3px;
+    /*background-color: #DDDDDD; 禁用*/
+    background-color: #FBFBFB;
+    position: absolute;
+    left:110px;
+    top:-5px;
+}
+.sliderColor{
+    display: block;
+    position: absolute;
+    top:0;
+    left:0;
+    height:10px;
+    width:110px;
+    background-color: #9BCA3D;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+/*********************************************/
+.imageArea{
+    height:471px;
+    position: relative;
+}
+
+#targetImage{
+    /*height: 100%;*/
+    width:350px;
+    position: absolute;
+    top:119px;
+    left:194px;
+    opacity: 0.5;
+    -webkit-filter:grayscale(0.5);
+}
+
+#imageSliderContainer p{
+    margin: 0;
+    padding: 0 0 0 15px;
+    font-weight: bold;
+    font-size: 17px;
+}

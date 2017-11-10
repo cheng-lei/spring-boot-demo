@@ -1,0 +1,42 @@
+{
+    "code": "A00000",
+    "msg": "修改信息成功",
+    "data": [
+        {
+            "id": "firstAnchor",
+            "left1": "css-src/pictureExpand/reactImages/ahd_left_1.jpg",
+            "left2": "css-src/pictureExpand/reactImages/ahd_left_2.jpg",
+            "right": "css-src/pictureExpand/reactImages/ahd_right.jpg"
+        },
+        {
+            "id": "secondAnchor",
+            "left1": "css-src/pictureExpand/reactImages/chaoneng_left_1.jpg",
+            "left2": "css-src/pictureExpand/reactImages/chaoneng_left_2.jpg",
+            "right": "css-src/pictureExpand/reactImages/chaoneng_right.jpg"
+        },
+        {
+            "id": "thirdAnchor",
+            "left1": "css-src/pictureExpand/reactImages/sanyuan_left_1.jpg",
+            "left2": "css-src/pictureExpand/reactImages/sanyuan_left_2.jpg",
+            "right": "css-src/pictureExpand/reactImages/sanyuan_right.jpg"
+        },
+        {
+            "id": "fourthAnchor",
+            "left1": "css-src/pictureExpand/reactImages/xiaoming_left_1.jpg",
+            "left2": "css-src/pictureExpand/reactImages/xiaoming_left_2.jpg",
+            "right": "css-src/pictureExpand/reactImages/xiaoming_right.jpg"
+        },
+        {
+            "id": "fifthAnchor",
+            "left1": "css-src/pictureExpand/reactImages/xpp_left_1.jpg",
+            "left2": "css-src/pictureExpand/reactImages/xpp_left_2.jpg",
+            "right": "css-src/pictureExpand/reactImages/xpp_right.jpg"
+        },
+        {
+            "id": "sixthAnchor",
+            "left1": "css-src/pictureExpand/reactImages/yongyi_left_1.jpg",
+            "left2": "css-src/pictureExpand/reactImages/yongyi_left_2.jpg",
+            "right": "css-src/pictureExpand/reactImages/yongyi_right.jpg"
+        }
+    ]
+}

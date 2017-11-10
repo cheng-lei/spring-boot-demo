@@ -1,0 +1,25 @@
+@charset 'utf-8';
+
+/**
+ * Copyright 2016 Qiyi.com All rights reserved.
+ *
+ * file: lego
+ * path: js-src/
+ * description: Echarts
+ * author: jingtang@qiyi.com
+ * date: 2016-7-13
+ */
+
+.eContainer {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+.wrapper-table .table, .wrapper-table th{
+    text-align: center;
+}
+
+
+

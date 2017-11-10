@@ -1,0 +1,22 @@
+{
+    "code": "A00000",
+    "msg": "获取信息成功",
+    "data": [{
+                    "value": "国内",
+                    "id": "22",
+                    "checked": false
+                },{
+                    "value": "好莱坞",
+                    "id": "23",
+                    "checked": false
+                },{
+                    "value": "港台",
+                    "id": "24",
+                    "checked": false
+                },{
+                    "value": "日韩",
+                    "id": "25",
+                    "checked": false
+                }
+            ]
+}

@@ -1,0 +1,88 @@
+{
+    "code": "A00000",
+    "msg": "获取信息成功",
+    "data": {
+        "totalPages": 3,
+        "pageSize": 12,
+        "total": 25,
+        "pageNo": 1,
+        "result": [
+                {
+                    "Src" : "css-src/listpagination/images/albums1-1.jpg",
+                    "Info":1
+                }, {
+                    "Src" : "css-src/listpagination/images/albums1-10.jpg",
+                    "Info":2
+                }, {
+                    "Src" : "css-src/listpagination/images/albums1-6.jpg",
+                    "Info":3
+                }, {
+                    "Src" : "css-src/listpagination/images/albums1-4.jpg",
+                    "Info":4
+                }, {
+                    "Src" : "css-src/listpagination/images/albums1-11.jpg",
+                    "Info":5
+                }, {
+                    "Src" : "css-src/listpagination/images/albums1-3.jpg",
+                    "Info":6
+                }, {
+                    "Src" : "css-src/listpagination/images/albums1-12.jpg",
+                    "Info":7
+                }, {
+                    "Src" : "css-src/listpagination/images/albums1-8.jpg",
+                    "Info":8
+                }, {
+                    "Src" : "css-src/listpagination/images/albums1-7.jpg",
+                    "Info":9
+                }, {
+                    "Src" : "css-src/listpagination/images/albums1-2.jpg",
+                    "Info":10
+                }, {
+                    "Src" : "css-src/listpagination/images/albums1-5.jpg",
+                    "Info":11
+                }, {
+                    "Src" : "css-src/listpagination/images/albums1-9.jpg",
+                    "Info":12
+                },{
+                    "Src" : "css-src/listpagination/images/albums2-8.jpg",
+                    "Info":13
+                }, {
+                    "Src" : "css-src/listpagination/images/albums2-2.jpg",
+                    "Info":13
+                }, {
+                    "Src" : "css-src/listpagination/images/albums2-9.jpg",
+                    "Info":13
+                }, {
+                    "Src" : "css-src/listpagination/images/albums2-6.jpg",
+                    "Info":13
+                }, {
+                    "Src" : "css-src/listpagination/images/albums2-12.jpg",
+                    "Info":13
+                }, {
+                    "Src" : "css-src/listpagination/images/albums2-3.jpg",
+                    "Info":13
+                }, {
+                    "Src" : "css-src/listpagination/images/albums2-10.jpg",
+                    "Info":13
+                }, {
+                    "Src" : "css-src/listpagination/images/albums2-7.jpg",
+                    "Info":13
+                }, {
+                    "Src" : "css-src/listpagination/images/albums2-4.jpg",
+                    "Info":13
+                }, {
+                    "Src" : "css-src/listpagination/images/albums2-1.jpg",
+                    "Info":13
+                }, {
+                    "Src" : "css-src/listpagination/images/albums2-11.jpg",
+                    "Info":13
+                }, {
+                    "Src" : "css-src/listpagination/images/albums2-5.jpg",
+                    "Info":13
+                }, {
+                    "Src" : "css-src/listpagination/images/albums2-11.jpg",
+                    "Info":13
+                }
+            ]
+        }
+}

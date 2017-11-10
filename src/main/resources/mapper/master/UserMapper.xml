@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.demo.business.dao.master.User2Mapper">
+    <resultMap id="BaseResultMap" type="com.example.demo.business.model.User">
+        <id column="id" property="id" jdbcType="BIGINT"/>
+        <result column="name" property="name" jdbcType="VARCHAR"/>
+        <result column="age" property="age" jdbcType="TINYINT"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id, name,age
+    </sql>
+
+    <select id="getAll" resultMap="BaseResultMap">
+        SELECT
+        <include refid="Base_Column_List"/>
+        FROM user
+    </select>
+
+    <select id="getOne" parameterType="java.lang.Long" resultMap="BaseResultMap">
+        SELECT
+        <include refid="Base_Column_List"/>
+        FROM user
+        WHERE id = #{id}
+    </select>
+
+    <insert id="insert" parameterType="com.example.demo.business.model.User">
+        INSERT INTO
+        user
+        (name,age)
+        VALUES
+        (#{name}, #{age})
+    </insert>
+
+    <update id="update" parameterType="com.example.demo.business.model.User">
+        UPDATE
+        user
+        SET
+        <if test="name != null">name = #{name},</if>
+        <if test="age != null">age = #{age},</if>
+        WHERE
+        id = #{id}
+    </update>
+
+    <delete id="delete" parameterType="java.lang.Long">
+        DELETE FROM
+        user
+        WHERE
+        id =#{id}
+    </delete>
+
+</mapper>
