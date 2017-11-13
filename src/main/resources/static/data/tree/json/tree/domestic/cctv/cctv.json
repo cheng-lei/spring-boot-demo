@@ -1,8 +1,0 @@
-[
-	{"id": "cctv1", "text": "CCTV-1 综合"},
-	{"id": "cctv2", "text": "CCTV-2 财经"},
-	{"id": "cctv3", "text": "CCTV-3 综艺"},
-	{"id": "cctv5", "text": "CCTV-5 体育"},
-	{"id": "cctv6", "text": "CCTV-6 电影"},
-	{"id": "cctvnews", "text": "CCTV-News"}
-]

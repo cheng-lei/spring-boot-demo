@@ -1,8 +1,0 @@
-[
-	{"id": "hktvb", "text": "香港TVB", "children": true, "type": "folder"},
-	{"id": "hkasia", "text": "香港亚洲电视台", "children": true, "type": "folder"},
-	{"id": "taiwan", "text": "台湾电视公司", "children": true, "type": "folder"},
-	{"id": "macautv", "text": "澳门卫视"},
-	{"id": "lianhuatv", "text": "莲花卫视"},
-	{"id": "macauasiatv", "text": "澳亚卫视"}
-]
